@@ -1,5 +1,5 @@
 Corresponding source for third-party libraries bundled in
-InfinityCreator v1.0.0.6 (Linux AppImage).
+InfinityCreator v1.0.0.8 (Linux AppImage).
 
 Ubuntu archive snapshot: 20260817T000000Z
 Base image:              ubuntu-24.04 (noble)
