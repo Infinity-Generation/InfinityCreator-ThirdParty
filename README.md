@@ -5,18 +5,20 @@ Source for the third-party libraries we redistribute with
 
 Some of them are LGPL, which means we have to make the source we built from
 available to anyone who got a binary. That's what this is for. It's not a
-development repo and we don't take contributions — each directory is an
-unmodified upstream release plus the script we build it with.
+development repo and we don't take contributions — each directory is
+unmodified upstream source, plus the script we build it with where we
+build it ourselves.
 
 | Library | Licence | Platforms | Directory |
 |---|---|---|---|
 | FFmpeg | LGPL-2.1-or-later | Linux | [`ffmpeg/`](ffmpeg/) |
+| Ubuntu system libraries | various, incl. LGPL-2.1-or-later | Linux | [`ubuntu-noble/`](ubuntu-noble/) |
 
 ## Matching a binary to its source
 
 Help → Licenses in Infinity Creator lists the version of each library. That
-version maps to a directory here, and the build script in it reproduces the
-shared objects we ship.
+version maps to a directory here, and the notes in it explain how to
+reproduce the shared objects we ship.
 
 ## Asking for source another way
 
