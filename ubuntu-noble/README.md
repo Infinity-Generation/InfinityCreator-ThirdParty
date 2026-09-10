@@ -2,9 +2,13 @@
 
 Unmodified Debian source packages for the system libraries bundled
 into the Infinity Creator Linux AppImage. `linuxdeploy` vendors these
-out of the build image; two of them (systemd, libgcrypt) are LGPL, so
-the corresponding source has to be available to anyone holding a
-binary. The rest are here for completeness.
+out of the build image. None of the current set is LGPL, so they are
+published for completeness rather than obligation.
+
+Earlier releases also bundled systemd and libgcrypt, which are
+LGPL-2.1. Their corresponding source remains in this repository's
+history; each commit's `MANIFEST.txt` names the release that
+published it and the exact versions it carried.
 
 These are not built by us and carry no patches. `MANIFEST.txt` records
 which shared object came from which source package and version, and
