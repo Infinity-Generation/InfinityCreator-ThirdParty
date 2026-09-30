@@ -1,11 +1,12 @@
 Corresponding source for third-party libraries bundled in
-InfinityCreator v1.0.0.115 (Linux AppImage).
+InfinityCreator v1.0.0.117 (Linux AppImage).
 
 Ubuntu archive snapshot: 20260910T000000Z
 Base image:              ubuntu-24.04 (noble)
 
 libxau                       1:1.0.9-1build6        <- libXau.so.6
 libxdmcp                     1:1.1.3-0ubuntu6       <- libXdmcp.so.6
+ffmpeg                       7:6.1.1-3ubuntu5       <- libavcodec.so.60
 libbsd                       0.12.1-1build1.1       <- libbsd.so.0
 libmd                        1.1.0-2build1.1        <- libmd.so.0
 vulkan-loader                1.3.275.0-1build1      <- libvulkan.so.1
